@@ -1,0 +1,119 @@
+/* styling för inedex.html  */
+
+
+.login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.login h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.login input[type="text"],
+.login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.login button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+/* styling för board.html  */
+#boardId {
+  position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+ width: 775px;
+    font-size: 16px;
+}
+.login, .board {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+}
+.note {
+    width: 200px;
+    height: 150px;
+    background-color: #ffeb3b;  /* Gul färg för lapp */
+    position: relative;
+    box-sizing: border-box;
+   
+}
+
+.board {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+ .board button {
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.board input{
+   
+    
+    border: 1px solid #ddd;
+   
+    width: 100%;
+   
+}
+.board button {
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+   
+}
+
+.board button:hover {
+    background-color: #0056b3;
+}
+
+#board {
+    max-width: 800px;
+    margin: 20px auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.color-picker {
+    position: absolute; 
+    bottom: 0;            
+    right: 0;           
+}
+
+
+.note:hover {
+    cursor: text;
+}
+.note .color-picker:hover {
+    cursor: pointer;
+}
